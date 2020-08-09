@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>Photo Phactory:Gallery</title>
+
+    <link rel="stylesheet" href="ppjoinu.css" />
+
+
+
+
+
+</head>
+<body class="main">
+
+
+    <div class="navbar">
+        <div class="section">
+            <a href="pphome.html">Home</a>
+            <a href="ppgal.html">Gallery</a>
+            <a href="ppabtus.html">About us</a>
+            <a href="ppjoinus.html">Join Us</a>
+        </div>
+        <div class="section" align="center">
+
+            <div class="txt" style="font-size: 30px">
+                Register yourself with Photo Factory for free ....<br>
+
+            </div>
+
+            <form action="createdb.php" method="post" class="form1" id="form1">
+                <fieldset form="form1">
+                    <legend align="left" class="txt"> Personals </legend>
+                    <span class="txt">Name : </span><br><input type="text" name="uname" placeholder="Name" style="box-sizing: border-box;" required="required"><br><br>
+                    <span class="txt"> Age : </span><br><input type="integer" name="age" placeholder="Age" required="required"><br><br>
+                    <span class="txt">Gender : </span><br><input type="radio" name="gen" value="Male" required="required"><span class="ttt">Male </span><br>
+                    <input type="radio" name="gen" value="Female" align="center" required="required"><span class="ttt">Female </span><br><br>
+                    <span class="txt"> E-mail : </span><br><input type="email" name="email" placeholder="E-Mail" required="required"><br><br>
+                </fieldset>
+                <fieldset form="form1">
+                    <legend class="txt"> Your Course </legend>
+                    <span class="txt">Choose Your Course: </span><br>
+                    <select name="course" required="required">
+                        <optgroup>
+                            <option disabled="disabled" selected="selected"> --Select--</option>
+                            <option>Professional Photography </option>
+                            <option>Fundamentals of digital photography</option>
+                            <option>Portrait Photography</option>
+                            <option>Travel Photography course</option>
+                            <option>Wedding and Occation Photography Course</option>
+                            <option>PhotoShop Course</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <span class="txt">You want to take up the Course through : </span><br><input type="radio" name="type" required="required" value="Online"><span class="ttt">Online</span><br>
+                    <input type="radio" name="type" value="Ofline" align="center"><span class="ttt">Ofline </span><br><br>
+                    <span class="txt">Do you have a Camera ? : </span><br><input type="radio" name="cam" value="Yes"><span class="ttt">Yes</span><br>
+                    <input type="radio" name="cam" value="No" align="center"><span class="ttt">No</span><br><br>
+                    <span class="txt">If yes ,Specify Model  : </span><br><input type="text" name="mod" placeholder="Your Model" style="box-sizing: border-box;"><br><br>
+                    <span class="txt">Choose your level : </span><br>
+                    <select name="exp" required="required">
+                        <optgroup>
+                            <option disabled="disabled" selected="selected"> --Select--</option>
+                            <option>Beginner </option>
+                            <option>Intermediate</option>
+                            <option>Master</option>
+                        </optgroup>
+                    </select><br><br>
+
+                    <button class="sub" type="submit"> Submit </button>
+
+                    <input type="button" class="sub" value=' View my Details' style="width: 200px;" onclick="document.getElementById('id1').style.display='block';" />
+
+
+            </form>
+            <div class="detailb" id="id1" style="display: none;">
+                <div class="detail zoom">
+                    <div class="close" onclick="document.getElementById('id1').style.display='none';">&times;</div>
+                    <form action="view.php" method="post">
+                        <span class="txt">Enter your E-mail : </span><br><input type="email" name="em" placeholder="E-Mail" required="required"><br><br>
+
+
+                        <input type="submit" value='View Details' id='aaa' class="sub" style="width: 200px; " />
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="section">
+            <div id="con">
+                Ph:+91-8825432440<br><br>
+                E-mail :dhanusree26@yahoo.com
+                <div id="add" align="right">
+                    Address :Arjun Parthasarathy,<br>
+                    22/184,2<sup>nd</sup> Avenue,Anna nagar,<br>
+                    Chennai-600040.
+                </div>
+            </div>
+        </div>
+</body>
+
+
+</html>

@@ -1,0 +1,120 @@
+.navbar{
+overflow: hidden;
+position: fixed;
+width: 99%;
+z-index: 2;
+}
+ a{
+
+display:inline-block;
+color: black;
+padding: 8px 6px;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+width: 22.5%;
+font-family: text;
+}
+
+a:hover{
+background-color: #353535;
+color: white;
+opacity: 0.8; 
+
+}
+.main{
+background-color: #333;
+background-image: url('images/abc.jpg');
+background-size: cover;
+background-attachment: fixed;
+overflow: auto;}
+
+.section{
+	
+background-color: lightgray;
+padding: 15px;
+border-radius: 10px;
+margin-bottom: 10px;
+width: 90%;
+position: relative;
+left: 5%;
+right: 5%;
+
+}
+@font-face{
+font-family:myfont;
+src:url("fonts/Waterlily_Script.otf");
+
+}
+@font-face{
+font-family: new;
+src:url("fonts/ph.ttf");
+
+}
+@font-face{
+font-family: ne;
+src:url("fonts/tt.otf");
+
+}
+
+
+@font-face{
+font-family: text;
+src:url("fonts/text.ttf");
+
+}
+
+#con{
+font-family: new;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+}
+#add{
+float: right;
+clear: both;
+position: relative;
+bottom: 120px;
+
+}
+.txt{
+	font-size: 30px;
+	font-family: text;
+}
+.ttt{
+font-size: 30px;
+	font-family: text;
+	position: relative;
+left: 50px;
+}
+
+input[type=text],input[type=email],[type=integer] {
+	
+padding:6px 8px;
+margin:12px 10px;
+position: relative;
+left: 50px;
+width: 70%;
+font-family: myfont;
+
+
+}
+input[type=radio]{
+position: relative;
+left: 40px;
+
+}
+
+select {
+padding:6px 8px;
+margin:12px 10px;
+transition: width ;
+transition-duration: 2s;
+position: relative;
+left: 50px;
+width: 70%;
+}
+.tx{
+font-family: ne;
+font-size: 30px;
+}

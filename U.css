@@ -1,0 +1,56 @@
+.eff {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+}
+
+.eff .efftxt {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+transition:all .4s ease;
+}
+
+.eff img {
+display:block;
+position:relative;
+transition:all .4s linear;
+}
+
+.eff h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+
+
+.eff:hover img {
+transform:scale(1.2);
+}
+
+.eff:hover .efftxt {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.eff:hover h2 {
+opacity:1;
+filter:alpha(opacity=100);
+transform:translatey(0);
+}
+
+

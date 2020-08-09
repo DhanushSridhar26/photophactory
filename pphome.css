@@ -1,0 +1,110 @@
+.navbar{
+overflow: hidden;
+}
+ a{
+
+display:inline-block;
+color: black;
+padding: 8px 6px;
+text-align: center;
+text-decoration: none;
+font-size: 30px;
+width: 22.5%;
+font-family: text;
+transition: all 0.5s;
+
+}
+
+a:hover{
+background-color: #353535;
+color: white;
+opacity: 0.9; 
+
+
+}
+.main{
+background-color: #333;
+background-image: url('images/abc.jpg');
+background-size: cover;
+background-attachment: fixed;}
+
+
+.search{
+float: right;
+}
+video{
+z-index: 1;
+}
+.navbar img{
+position: relative;
+top: 0;
+left: 0;}
+
+.content{
+background-color: black;
+font-family: text;
+font-size: 20px;
+opacity: 0.8;
+color: white;
+position: relative;
+bottom: 200px;
+width: 80%;
+z-index: 3px;
+}
+.section{
+background-color: lightgray;
+padding: 15px;
+border-radius: 10px;
+margin-bottom: 10px;
+width: 90%;
+position: relative;
+left: 5%;
+right: 5%;
+}
+@font-face{
+font-family:myfont;
+src:url("fonts/Waterlily_Script.otf");
+
+}
+@font-face{
+font-family: new;
+src:url("fonts/ph.ttf");
+
+}
+
+
+@font-face{
+font-family: text;
+src:url("fonts/text.ttf");
+
+}
+
+
+.logo #txt1{
+position: relative;
+top: 40px;
+left: 100px;
+font-family:myfont; 
+
+font-size: 100px;
+color: black;
+
+}
+.logo{
+background-image: url('images/dd.jpeg');
+background-size: cover;
+border
+}
+#con{
+font-family: new;
+padding: 10px;
+font-weight: bold;
+font-size: 30px;
+}
+#add{
+float: right;
+clear: both;
+position: relative;
+bottom: 70px;
+}
+

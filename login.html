@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajith's Login Form</title>
+
+	<style type="text/css">
+		#form{
+			background-color:gray;
+			border: 2px solid black;
+			left: 40%;
+			position: absolute;
+			top: 30%;
+			padding: 50px;
+			
+
+		}
+		
+		input{
+			border:1px solid red;
+			border-radius: 10px;
+			text-align:center;
+		}
+		input:hover{
+			background-color: lightgreen;
+		}
+
+	</style>
+
+</head>
+<body style="background-color: gold">
+<div id="form">
+<form action="createdb.php" method="post">
+	
+	<input type="text" name="uname" placeholder="USERNAME" ><br><br>
+	<input type="password" name="password" placeholder="PASSWORD"><br><br>
+	<input type="email" name="email" placeholder="EMAIL"><br><br>
+
+	<input type="submit" value="submit">
+
+</form>
+</div>
+</body>
+</html>
